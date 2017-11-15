@@ -174,7 +174,7 @@
 
       </li>
     </ul>
-    
+
     <div class="footer"id="hr_footer1">
       <hr>
       <ul id="footer_menu">
@@ -204,19 +204,19 @@
 
       <div class="row">
         <label for="add-title">Title</label><br>
-        <input type="text" name="add-title" id="add-title" required placeholder="My TODO Title">
+        <input value="My TODO Title" onFocus="clearText(this)" onBlur="clearText(this)" type="text" name="add-title" id="add-title">
       </div>
       <hr width="99%" align="center"/>
 
       <div class="row">
         <label for="add-description">DESCRIPTION</label><br>
-        <input type="text" name="add-description" id="add-description" required placeholder="My todo description">
+        <input value="My todo description" onFocus="clearText(this)" onBlur="clearText(this)"type="text" name="add-description" id="add-description">
       </div>
       <hr width="99%" align="center"/>
 
       <div class="row">
         <label for="add-start-at">START-AT</label><br>
-        <input type="text" name="add-start-at" id="add-start-at" required placeholder="December 12, 2 PM">
+        <input value="December 12, 2 PM" onFocus="clearText(this)" onBlur="clearText(this)"type="text" name="add-start-at" id="add-start-at">
       </div>
       <hr width="99%" align="center"/>
 

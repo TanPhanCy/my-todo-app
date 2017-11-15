@@ -162,7 +162,7 @@ var datepickerDefault = new MtrDatepicker(
 // 		i++;
 // 	}
 // }
-
+function clearText(a){if(a.defaultValue==a.value){a.value=""}else{if(a.value==""){a.value=a.defaultValue}}};
 
 
 var btn1 = document.querySelector('#btn1');
