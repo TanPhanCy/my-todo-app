@@ -67,6 +67,7 @@ h1 {
 
 .task_list,.add_task{
 	width:500px;
+	height: 700px;
 	margin: 50px auto 0;
 	padding: 20px 20px 40px;
 	box-shadow: 0px 20px 50px rgba(0,0,0,0.1);
@@ -85,11 +86,32 @@ h1 {
 
 #done .title{
 	text-decoration: line-through;
+	display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+	color:black;
+	text-decoration-color:darkgrey;
+}
+
+#doing .title{
+	display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type:circle;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+}
+
+#todo .title{
+	display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type:circle;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
 }
 
 #late .title{
 	text-decoration: line-through;
 	text-decoration-color: red;
+	display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type:disc;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+	color:red;
 }
 
 .menuaction{
@@ -110,7 +132,10 @@ h1 {
 }
 
 #hr_footer{
-		margin-top: 50px;
+		margin-top: 40px;
+}
+#hr_footer1{
+		margin-top: 220px;
 }
 
 #footer_menu{
