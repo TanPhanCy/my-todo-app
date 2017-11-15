@@ -80,23 +80,44 @@ body{
 	font-weight: lighter;
 }
 
-
-
-.main-container{
-
-}
-
 .main-container {
 	display: none;
 }
 
 .list {
-	
-	padding-top: 30px;
+	border-top: 1px solid lightgrey;
+}
+
+.list-item {
+
+}
+
+.title {
+
+
+
+
+}
+
+ .menuaction {
+	 position: absolute;
+	justify-content: space-between;
+	width: 120px;
+
+	display: flex;
+	float: right;
+	left: 480px;
+	top: 0;
 }
 
 
 
+
+
+.item-inner {
+	position: relative;
+
+}
 
 #done .title {
 	text-decoration: line-through;

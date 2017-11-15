@@ -1,4 +1,4 @@
-<?php include 'core/connexion.php'; ?>
+<?php include 'core/request.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +42,10 @@
           <div class="title"><span>Take a shower<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+            </ul>
 
         </div>
       </li>
@@ -54,7 +57,10 @@
           <div class="title"><span>Make my bag<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+            </ul>
 
         </div>
       </li>
@@ -66,7 +72,10 @@
           <div class="title"><span>Take a breakfast<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+            </ul>
 
         </div>
       </li>
@@ -79,12 +88,13 @@
       <div class="item-inner">
 
         <div class="title"><span>Go to bus stop</span></div>
+        <ul class="menuaction">
+          <li><a href="#">Delete</a></li>
+          <li><a href="#">Edit</a></li>
+        </ul>
             <div class="content">My bus arrives at 7:30 I'll be at the station at 7:15</div>
             <div class="infos">Started on: 2/10/2017 - 12:00 End Time: 3/10/2017 - 15:00</div>
-            <ul class="menuaction">
-              <li><a href="#">Delete</a></li>
-              <li><a href="#">Edit</a></li>
-            </ul>
+
 
       </div>
     </ul>
@@ -100,8 +110,14 @@
           <div class="title"><span>Be at BeCode on 9:00<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
 
+              <li><a href="#">Done</a></li>
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+
+
+            </ul>
         </div>
       </li>
 
@@ -112,7 +128,13 @@
           <div class="title"><span>Start Coding<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
+
+              <li><a href="#">Done</a></li>
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+
+            </ul>
 
         </div>
       </li>
@@ -124,7 +146,13 @@
           <div class="title"><span>I need a BREAK<span></div>
             <div class="content"></div>
             <div class="infos"></div>
-            <ul class="menuaction"></ul>
+            <ul class="menuaction">
+
+              <li><a href="#">Done</a></li>
+              <li><a href="#">Delete</a></li>
+              <li><a href="#">Edit</a></li>
+
+            </ul>
 
         </div>
       </li>
@@ -142,13 +170,20 @@
           <div class="infos"></div>
           <ul class="menuaction"></ul>
 
+            <li><a href="#">Done</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Edit</a></li>
+
+          </ul>
         </div>
 
       </li>
     </ul>
   </div>
 
-    <div class="add-container">
+  <hr width="99%" align="center"/>
+
+    <div id="next" class="add-container">
 
     <a id="clear" href="#">Clear</a>
 
