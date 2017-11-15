@@ -17,7 +17,21 @@
   <link rel="stylesheet" href="datepicker/dist/mtr-datepicker.min.css">
   <link rel="stylesheet" href="datepicker/dist/mtr-datepicker.clutterboard-theme.min.css">
   <script type="text/javascript">
-function clearText(a){if(a.defaultValue==a.value){a.value=""}else{if(a.value==""){a.value=a.defaultValue}}};
+  function clearText(a){
+  	if(a.defaultValue==a.value){a.value=""
+  }
+  	else{
+  		if(a.value==""){a.value=a.defaultValue
+  		}
+  	}
+  };
+
+  function ClearFields() {
+  		document.getElementById("add-title").value = "";
+      document.getElementById("add-description").value = "";
+  		document.getElementById("add-start-at").value = "";
+  };
+
 </script>
 </head>
 
