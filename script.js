@@ -162,7 +162,20 @@ var datepickerDefault = new MtrDatepicker(
 // 		i++;
 // 	}
 // }
-function clearText(a){if(a.defaultValue==a.value){a.value=""}else{if(a.value==""){a.value=a.defaultValue}}};
+function clearText(a){
+	if(a.defaultValue==a.value){a.value=""
+}
+	else{
+		if(a.value==""){a.value=a.defaultValue
+		}
+	}
+};
+
+function ClearFields() {
+		document.getElementById("add-title").value = "";
+    document.getElementById("add-description").value = "";
+		document.getElementById("add-start-at").value = "";
+};
 
 
 var btn1 = document.querySelector('#btn1');

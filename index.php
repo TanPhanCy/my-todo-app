@@ -197,7 +197,7 @@
 
     <div id="next" class="add-container">
 <div class="clear_container">
-  <a id="clear" href="#">Clear</a>
+  <a id="clear" href="#"onclick="ClearFields();">Clear</a>
 </div>
 
     <form id="add">
@@ -232,7 +232,7 @@
     <hr id="hr_footer">
     <div class="footer">
       <ul id="footer_menu">
-        <li><a href="#">All task and create new one</a></li>
+        <li><a href="#">Add task and create new one</a></li>
         <li><a href="#">Add task</a></li>
       </ul>
     </div>
