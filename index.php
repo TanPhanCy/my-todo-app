@@ -26,7 +26,7 @@
 
     <div class="main-header">
       <h1>MY TODOLIST</h1>
-      <img src="assets/img/plus.svg" alt="button">
+      <img id="btn1" src="assets/img/plus.svg" alt="button">
     </div>
     <hr width="99%" align="center"/>
 
@@ -174,15 +174,30 @@
 
       </li>
     </ul>
+    <hr id="hr_footer">
+    <div class="footer">
+      <ul id="footer_menu">
+        <li>Show <a href="#">All task</a></li>
+        <li><a href="#">Todo task</a></li>
+        <li><a href="#">Done task</a></li>
+      </ul>
+    </div>
+
+  </div>
   </div>
 
 
 <div class="add_task">
+  <div class="main-header">
+    <h1>MY TODOLIST</h1>
+    <img id="btn2" src="assets/img/plus.svg" alt="button">
+  </div>
   <hr width="99%" align="center"/>
 
     <div id="next" class="add-container">
-
-    <a id="clear" href="#">Clear</a>
+<div class="clear_container">
+  <a id="clear" href="#">Clear</a>
+</div>
 
     <form id="add">
 
@@ -208,29 +223,18 @@
         <label for="add-end-at">END-AT</label><br>
         <div id="demo"></div>
       </div>
-      <hr width="99%" align="center" />
-
-      <ul class="list" id="add-new">
-
-        <li><input type="submit" value="Add and create new one"></li>
-        <li><input type="submit" value="Add task"></li>
-
-      </ul>
-      <hr width="99%" align="center" />
 
     </form>
 
-  </div>
 
-    <div class="main-footer">
 
-    <ul class="list" id="display">
-
-        <li><a href="#">All task</a></li>
-        <li><a href="#">Todo task</a></li>
-        <li><a href="#">Done task</a></li>
-
-    </ul>
+    <hr id="hr_footer">
+    <div class="footer">
+      <ul id="footer_menu">
+        <li><a href="#">All task and create new one</a></li>
+        <li><a href="#">Add task</a></li>
+      </ul>
+    </div>
 
   </div>
 </div>
