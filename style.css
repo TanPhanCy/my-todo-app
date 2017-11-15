@@ -60,9 +60,13 @@ img {
 
 h1 {
 	padding: 20px 0px;
-	font-size: 30px;
+	font-size: 35px;
 	color: darkgrey;
 
+}
+
+.title, .row {
+	font-size: 25px;
 }
 
 .task_list,.add_task{
