@@ -1,4 +1,4 @@
-<?php include 'core/request.php'; ?>
+<!-- <?php include 'core/request.php'; ?> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,14 +22,13 @@
 
   <div​ class="main">
 
+  <div class="task_list">
+
     <div class="main-header">
-
-      <img src="assets/img/plus.svg" alt="button">
-
       <h1>MY TODOLIST</h1>
-      <hr width="99%" align="center"/>
-
+      <img src="assets/img/plus.svg" alt="button">
     </div>
+    <hr width="99%" align="center"/>
 
     <div​ class="main.container">
 
@@ -46,7 +45,6 @@
               <li><a href="#">Delete</a></li>
               <li><a href="#">Edit</a></li>
             </ul>
-
         </div>
       </li>
 
@@ -84,19 +82,18 @@
 
     <ul class="list" id="doing">
       <li class="list-item">
-
       <div class="item-inner">
-
         <div class="title"><span>Go to bus stop</span></div>
-        <ul class="menuaction">
-          <li><a href="#">Delete</a></li>
-          <li><a href="#">Edit</a></li>
-        </ul>
-            <div class="content">My bus arrives at 7:30 I'll be at the station at 7:15</div>
-            <div class="infos">Started on: 2/10/2017 - 12:00 End Time: 3/10/2017 - 15:00</div>
-
-
+          <ul class="menuaction">
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">Edit</a></li>
+          </ul>
       </div>
+      <div class="details">
+        <div class="content">My bus arrives at 7:30 I'll be at the station at 7:15</div>
+        <div class="infos">Started on: 2/10/2017 - 12:00 End Time: 3/10/2017 - 15:00</div>
+      </div>
+    </li>
     </ul>
 
     <hr width="99%" align="center" />
@@ -168,12 +165,10 @@
           <div class="title"><span>Go to bus stop</span></div>
           <div class="content"></div>
           <div class="infos"></div>
-          <ul class="menuaction"></ul>
-
+          <ul class="menuaction">
             <li><a href="#">Done</a></li>
             <li><a href="#">Delete</a></li>
             <li><a href="#">Edit</a></li>
-
           </ul>
         </div>
 
@@ -181,6 +176,8 @@
     </ul>
   </div>
 
+
+<div class="add_task">
   <hr width="99%" align="center"/>
 
     <div id="next" class="add-container">
@@ -236,6 +233,7 @@
     </ul>
 
   </div>
+</div>
 </div>
 <script type="text/javascript" src="datepicker/dist/mtr-datepicker.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
