@@ -216,7 +216,7 @@
 
       <div class="row">
         <label for="add-start-at">START-AT</label><br>
-        <input value="December 12, 2 PM" onFocus="this.value=''" "type="text" name="add-start-at" id="add-start-at">
+        <input value="December 12, 2 PM" onFocus="this.value=''" type="text" name="add-start-at" id="add-start-at">
       </div>
       <hr width="99%" align="center"/>
 
