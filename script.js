@@ -4,26 +4,6 @@ var datepickerDefault = new MtrDatepicker(
 	}
 );
 
-// let button = document.getElementById('goToNextPage');
-//
-// button.addEventListener('click',
-// 	function () {
-//
-// 		if (this.id == 'goToNextPage') {
-// 			document.getElementById('next')		.style.left = '0';
-// 			document.getElementById('main')		.style.left = '-120%';
-//
-// 			this.id = 'backToPreviousPage';
-// 		}
-// 		else {
-// 			document.getElementById('next')		.style.left = '120%';
-// 			document.getElementById('main')		.style.left = '0';
-//
-// 			this.id = 'goToNextPage';
-// 		}
-// 	}
-// );
-//
 // function getHumanTime (time) {
 // 	let date = new Date(time * 1000);
 // 	date = date.toDateString + ' ' + date.getHours() + ':' + date.getMinutes();
@@ -102,15 +82,15 @@ var datepickerDefault = new MtrDatepicker(
 // 		for (i in tasks) {
 //
 // 			if (tasks[i].task_ended_on_timestamp != '') {
-// 				setTask('todolist', tasks[i]);
+// 				setTask('todo', tasks[i]);
 // 			}
 // 			else {
 //
 // 				if(tasks[i].task_ended_on_timestamp < tasks[i].task_end_timestamp) {
-// 					setTask('donelist', tasks[i])
+// 					setTask('done', tasks[i])
 // 				}
 // 				else {
-// 					setTask('tolatelist', tasks[i]);
+// 					setTask('late', tasks[i]);
 // 				}
 // 			}
 // 		}
@@ -123,53 +103,7 @@ var datepickerDefault = new MtrDatepicker(
 //
 // ajax.open('GET', 'core/request.php', true);
 // ajax.send();
-//
-//
-// function setEventListener () {
-// 	var listItems = document.getElementsByClassName('item-inner');
-//
-// 	let i = 0;
-// 	while (listItems[i]) {
-// 		listItems[i].addEventListener('click',
-// 			function () {
-// 				let children = this.children;
-//
-// 				if (this.id == 'clicked') {
-// 					this.style.backgroundColor = '#fff';
-//
-// 					for (j = 0; j < children.length; j++) {
-// 						if(j != 0) {
-// 							children[j].style.display = 'none';
-// 						}
-// 					}
-// 					this.id = 'hidden';
-// 				}
-// 				else {
-// 					this.style.backgroundColor = '#EEEAEA';
-//
-// 					for (j = 0; j < children.length; j++) {
-// 						if (children[j].className != 'menuaction') {
-// 							children[j].style.display = 'block';
-// 						}
-// 						else {
-// 							children[j].style.display = 'flex';
-// 						}
-// 					}
-// 					this.id = 'clicked';
-// 				}
-// 			}
-// 		);
-// 		i++;
-// 	}
-// }
-function clearText(a){
-	if(a.defaultValue==a.value){a.value=""
-}
-	else{
-		if(a.value==""){a.value=a.defaultValue
-		}
-	}
-};
+
 
 function ClearFields() {
 		document.getElementById("add-title").value = "";
