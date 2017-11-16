@@ -204,19 +204,19 @@
 
       <div class="row">
         <label for="add-title">Title</label><br>
-        <input value="My TODO Title" onFocus="clearText(this)" onBlur="clearText(this)" type="text" name="add-title" id="add-title">
+        <input value="My TODO Title" onFocus="this.value=''"  type="text" name="add-title" id="add-title">
       </div>
       <hr width="99%" align="center"/>
 
       <div class="row">
         <label for="add-description">DESCRIPTION</label><br>
-        <input value="My todo description" onFocus="clearText(this)" onBlur="clearText(this)"type="text" name="add-description" id="add-description">
+        <input value="My todo description" onFocus="this.value=''"type="text" name="add-description" id="add-description">
       </div>
       <hr width="99%" align="center"/>
 
       <div class="row">
         <label for="add-start-at">START-AT</label><br>
-        <input value="December 12, 2 PM" onFocus="clearText(this)" onBlur="clearText(this)"type="text" name="add-start-at" id="add-start-at">
+        <input value="December 12, 2 PM" onFocus="this.value=''" "type="text" name="add-start-at" id="add-start-at">
       </div>
       <hr width="99%" align="center"/>
 
